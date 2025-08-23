@@ -3,19 +3,38 @@ import java.util.Scanner;
 
 public class Hello {
      public static void main(String[] args){
+
+     }
+}
+
+       /**
+         Scanner sc = new Scanner(System.in);
+            String s1, s2, s3;
+
+            s1 = sc.nextLine();// O nextLine ler a palavra toda (com espaços)
+            s2 = sc.nextLine();
+            s3 = sc.nextLine();
+            System.out.println("Dados digitados: ");
+            System.out.println(s1);
+            System.out.println(s2);
+            System.out.println(s3);
+         sc.close();
+        */
+
+       /**
          Scanner sc = new Scanner(System.in);
                System.out.print("Digite o seu nome: ");
                     String nome;
                     int idade;
 
-                    nome = sc.next();
+                    nome = sc.next();// le a palavra sem espaços
                System.out.print("Digite a sua idade: ");
                     idade = sc.nextInt();
                System.out.println("O seu nome é " + nome + " e a sua idade é " + idade);
 
          sc.close();
-     }
-}
+        */
+
      /**
           System.out.print("Digite sua idade: ");
           Scanner sc = new Scanner(System.in);
