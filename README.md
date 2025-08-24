@@ -3,13 +3,13 @@
 Olá! Esse é o meu primeiro código em **Java**.  
 O meu começo nessa linguagem foi no dia **22/08/2025**.  
 Aqui irei postar tudo dos meus primeiros passos nessa linguagem.
- desde a criação do projeto até o envio para o GitHub. 👨‍💻✨
+desde a criação do projeto até o envio para o GitHub. 👨‍💻✨
 
 ---
 # 📫 Meus Contatos
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/seu-linkedin)
-- 📷 [Instagram](https://www.instagram.com/seu-instagram)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/pedro-paulo-farias?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )
+- 📷 [Instagram](https://www.instagram.com/061pedropaulo?igsh=MW9icG01eHZmNWViNw==)
 ---
 
 # ⚙️ Configuração Inicial do Git (PRIMEIRO PASSO)
@@ -20,7 +20,7 @@ git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
 git config --list # Verificando as configurações
 ```
- # 🌳 Criação do Repositório no GitHub
+# 🌳 Criação do Repositório no GitHub
 
 1. Acesse GitHub e faça login (Sign in) ou crie uma conta (Sign up)
 2. Clique no ícone "+" no canto superior direito → New repository
@@ -34,7 +34,7 @@ git config --list # Verificando as configurações
    texto
 
 
-# 💻 Importação no VSCode ou IntelliJ 
+# 💻 Importação no VSCode ou IntelliJ
 
 1. Abra seu editor (VSCode ou IntelliJ)
 2. Abra a pasta onde deseja clonar o projeto
@@ -47,7 +47,7 @@ git config --list # Verificando as configurações
    bash
    cd PrimeiroCodigoEmJava
 
-# 🌿 Fluxo Básico de Git 
+# 🌿 Fluxo Básico de Git
 
 Inicializando o repositório
 
@@ -99,7 +99,7 @@ git pull origin nome-da-branch
 git push origin nome-da-branch
 ```
 
-🔄 Mesclar develop para main 
+🔄 Mesclar develop para main
 
 # Mudar para a branch main
 ```
