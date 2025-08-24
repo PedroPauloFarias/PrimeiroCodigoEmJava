@@ -8,8 +8,8 @@ desde a criação do projeto até o envio para o GitHub. 👨‍💻✨
 ---
 # 📫 Meus Contatos
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/seu-linkedin)
-- 📷 [Instagram](https://www.instagram.com/seu-instagram)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/pedro-paulo-farias?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )
+- 📷 [Instagram](https://www.instagram.com/061pedropaulo?igsh=MW9icG01eHZmNWViNw==)
 ---
 
 # ⚙️ Configuração Inicial do Git (PRIMEIRO PASSO)
