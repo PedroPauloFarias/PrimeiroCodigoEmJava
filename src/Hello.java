@@ -149,7 +149,7 @@ y = 2 * x;
         String nome = "Ana Clara";
         int idade = 17;
         double renda = 200.00;
-        System.out.printf("%s tem %d anos e sua renda é de R$ %.2f reais %n ", nome, idade, renda );
+        System.out.printf("%s tem %d anos e sua renda é de R$ %.2f reais %n ", nome, idade, renda ); // R$ %.2f reais %n  Significa quantos numeros apos a virgula
      */
    /**
     * public static void main(String[] args){
