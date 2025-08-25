@@ -1,3 +1,5 @@
+package Aprendizagem;
+
 public class RecebendoValores {
     public static void main(String[] args){
         // Nesse exemplo aqui as letras recebem os número por intermédio da =

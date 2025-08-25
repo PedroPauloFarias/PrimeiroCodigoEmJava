@@ -94,7 +94,7 @@ public class Hello {
       */
 
           /**
-                                   // Aqui tem uma operção com Casting
+                                   // Aqui tem uma operção com Aprendizagem.Casting
           double a;
           int b;
           a = 5.0; // Aqui a letra "a" recebe esse valor
@@ -104,7 +104,7 @@ public class Hello {
            */
 
           /**
-          //Isso é um Casting - a converção explicita de tipos de dados
+          //Isso é um Aprendizagem.Casting - a converção explicita de tipos de dados
           int a, b;
           double resultado;
           a = 5; // Aqui a letra "a" recebe esse valor
