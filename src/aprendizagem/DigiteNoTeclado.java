@@ -1,4 +1,4 @@
-package Aprendizagem;
+package aprendizagem;
 
 import java.util.Scanner; // É importante tambem fazer uma importaçao de: import java.util.Scanner;
 

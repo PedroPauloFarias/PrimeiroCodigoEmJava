@@ -1,4 +1,4 @@
-package Aprendizagem;
+package aprendizagem;
 
 public class ExpressoesComparativas {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Aprendizagem;
+package aprendizagem;
 
 public class MultiplicandoInicio {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Aprendizagem;
+package aprendizagem;
 
 public class EspressoesLogicas {
     public static void main(String[]  args){

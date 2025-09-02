@@ -1,4 +1,4 @@
-package Aprendizagem.Repeticao;
+package Atividades;
 
 public class WhileNaMesa {
     public static void main(String[] args){
