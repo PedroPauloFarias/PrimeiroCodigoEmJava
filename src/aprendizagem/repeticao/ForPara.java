@@ -1,4 +1,4 @@
-package aprendizagem.Repeticao;
+package aprendizagem.repeticao;
 
 import java.util.Scanner;
 

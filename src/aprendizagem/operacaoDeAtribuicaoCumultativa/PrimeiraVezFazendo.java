@@ -1,24 +1,23 @@
-package aprendizagem;
+package aprendizagem.operacaoDeAtribuicaoCumultativa;
 
-import java.util.Scanner;
 import java.util.Locale;
+import java.util.Scanner;
 
-public class OperadoresDeAtribuicaoCumultativa {
+public class PrimeiraVezFazendo {
     public static void main(String[] args){
-   System.out.println("Digite os minutos para ver quanto você irar pagar");
-   Locale.setDefault(Locale.US);
-    Scanner sc = new Scanner(System.in);
+        System.out.println("Digite os minutos para ver quanto você irar pagar");
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
         int minutos = sc.nextInt();
         double conta = 50.0;
         if(minutos > 100){
             conta += (minutos - 100) * 2.0; // conta = conta + (minutos - 100) * 2.0
         }
         System.out.printf("Valor da conta = R$ %.2f%n ", conta);
-    sc.close();
+        sc.close();
     }
 }
-
-/**
+/*
  É uma forma abreviada e mais rapida
 
  Operadores de atribuição cumultativa

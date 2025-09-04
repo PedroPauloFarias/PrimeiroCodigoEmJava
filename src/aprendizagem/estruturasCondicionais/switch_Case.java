@@ -1,12 +1,12 @@
-package aprendizagem;
+package aprendizagem.estruturasCondicionais;
 
 import java.util.Scanner;
 
-public class EstruturaSwitchCase {
+public class switch_Case {
     public static void main(String[] args){
-   System.out.println("Digite um numero para poder ver o dia da semana");
-   System.out.println("Os dias da semana vão até o número 7");
-    Scanner leitura = new Scanner(System.in);
+        System.out.println("Digite um numero para poder ver o dia da semana");
+        System.out.println("Os dias da semana vão até o número 7");
+        Scanner leitura = new Scanner(System.in);
         int x = leitura.nextInt();
         String dia;
         switch (x){
@@ -35,13 +35,12 @@ public class EstruturaSwitchCase {
                 dia = "valor invalido";
                 break;
         }
-System.out.print("O dia da semana do numero " + x + " é " + dia);
-    leitura.close();
+        System.out.print("O dia da semana do numero " + x + " é " + dia);
+        leitura.close();
     }
 }
-
 /**
- Ela é usada quando tem se varias opções a serem tradas
- com base no valor da variavel, substituindo o if-else encadeado
+ Ela é usada quando tem se várias opções a serem tradas
+ com base no valor da variável, substituindo o if-else encadeado
 
  */

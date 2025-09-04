@@ -1,11 +1,11 @@
-package aprendizagem;
+package aprendizagem.estruturasCondicionais;
 
 import java.util.Scanner;
 
-public class EstruturaCondicional {
+public class se_If {
     public static void main(String[] args){
         int horas;
-    Scanner leitura = new Scanner(System.in);
+        Scanner leitura = new Scanner(System.in);
         System.out.println("Quantas horas são agora? ");
         horas = leitura.nextInt();
         if (horas < 12){
@@ -17,9 +17,10 @@ public class EstruturaCondicional {
                 System.out.println("Boa noite");
             }
         }
-    leitura.close();
+        leitura.close();
     }
 }
+
 
 /**
  É uma estrutura de controle que permite definir
@@ -31,15 +32,15 @@ public class EstruturaCondicional {
  Na simples se ela for falsa, nao irar aparecer.
  É como se ela pulasse pois afirmação é falsa.
  Exemplo:
-    if (){
-
- }
-Na composta
-Exemplo:
  if (){
 
  }
-else{
+ Na composta
+ Exemplo:
+ if (){
+
+ }
+ else{
 
  }
 
@@ -49,21 +50,21 @@ else{
  if(condição 1){
 
  }else{
-    if(condição 2){
+ if(condição 2){
 
-        }else{
+ }else{
 
-    }
  }
-  */
-        /**int horas;
-    Scanner leitura = new Scanner(System.in);
-        System.out.println("Quantas horas são agora? ");
-        horas = leitura.nextInt();
-        if (horas < 12){
-            System.out.println("Bom dia");
-        } else {
-            System.out.println("Boa tarde");
-        }
-    leitura.close();
-         */
+ }
+ */
+/**int horas;
+ Scanner leitura = new Scanner(System.in);
+ System.out.println("Quantas horas são agora? ");
+ horas = leitura.nextInt();
+ if (horas < 12){
+ System.out.println("Bom dia");
+ } else {
+ System.out.println("Boa tarde");
+ }
+ leitura.close();
+ */

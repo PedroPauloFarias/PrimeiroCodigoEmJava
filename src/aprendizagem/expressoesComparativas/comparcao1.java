@@ -1,12 +1,9 @@
-package aprendizagem;
+package aprendizagem.expressoesComparativas;
 
-public class ExpressoesComparativas {
-    public static void main(String[] args){
-
-    }
+public class comparcao1 {
 }
-/**
-         São expressões que comparam
+/*
+ São expressões que comparam
  Ele vai mostrar se os valores são verdadeiros o falsos
 
  Aqui temos alguns operadores compartivos:
