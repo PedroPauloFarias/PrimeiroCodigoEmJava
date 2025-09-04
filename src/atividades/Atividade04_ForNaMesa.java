@@ -1,4 +1,4 @@
-package Atividades;
+package atividades;
 
 public class Atividade04_ForNaMesa {
     public static void main(String[] args){

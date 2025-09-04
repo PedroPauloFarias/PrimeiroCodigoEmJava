@@ -1,4 +1,4 @@
-package Atividades;
+package atividades;
 
 public class For2 {
     public static void main(String[] args){
