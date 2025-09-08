@@ -7,6 +7,7 @@ public class Bitwise {
         System.out.println(n1);
         System.out.println(n2);
         System.out.println(n1 & n2);
+
     }
 }
 /**
