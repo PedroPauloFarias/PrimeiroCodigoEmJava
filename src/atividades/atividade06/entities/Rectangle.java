@@ -1,12 +1,12 @@
 package atividades.atividade06.entities;
 
-public class Retangulo {
+public class Rectangle {
 
     public double width;
     public double heigth;
 
     public double Area(){
-
+      return width * heigth;
     }
-    public
+
 }
