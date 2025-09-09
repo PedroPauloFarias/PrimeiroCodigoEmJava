@@ -1,26 +1,22 @@
 package atividades.atividade06.application;
 
-import atividades.atividade06.entities.Rectangle;
 import java.util.Scanner;
+import atividade06.entities.Retangle;
 import java.util.Locale;
 
 public class Program {
     public static void main(String[] args){
-       Locale.setDefault(Locale.US);
-
+        Locale.setDefault(Locale.US);
         Scanner leitura = new Scanner(System.in);
-            Rectangle x;
-            x = new Rectangle();
-
-           System.out.println("Enter rectangle width and height:");
-            System.out.print("Width: ");
-                x.width = leitura.nextDouble();
-            System.out.print("Height: ");
-                x.heigth = leitura.nextDouble();
-            double area = x.Area();
-            System.out.printf(" Area:  %.2f%n " , area);
-
-
+         Retangle x;
+         x = new Retangle();
+            
+        System.out.println("Enter rectangle width and height: ");
+        x.width = leitura.nextDouble();
+        x.height = leitura.nextDouble();
+        System.out.printf("AREA:  %.2f%n ", x.area());
+        System.out.printf("PERIMETER: %.2f%n ", x.perimeter());
+        System.out.printf("DIAGONAL: %.2f%n ", x.diagonal());
         leitura.close();
     }
 }
