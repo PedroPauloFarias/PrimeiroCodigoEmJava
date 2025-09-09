@@ -1,4 +1,4 @@
-package atividades;
+package atividades.naMesa;
 
 public class testeDeFor {
     public static void main(String[] args){

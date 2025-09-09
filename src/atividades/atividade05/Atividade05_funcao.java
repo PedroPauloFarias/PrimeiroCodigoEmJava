@@ -1,8 +1,8 @@
-package atividades;
+package atividades.atividade05;
 
 import java.util.Scanner;
 
-public class atividade05_funcao {
+public class Atividade05_funcao {
     public static void main(String [] args){
     Scanner leitura = new Scanner(System.in);
         System.out.println("Digite alguns números: ");
