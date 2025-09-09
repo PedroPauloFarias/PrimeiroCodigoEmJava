@@ -10,7 +10,7 @@ public class Rectangle {
   public double perimeter(){
       return 2 * (height + width);
   }
-  public double diagonal(){
+  public double diagonal() {
       return Math.sqrt((width * width) + (height * height));
   }
 }
