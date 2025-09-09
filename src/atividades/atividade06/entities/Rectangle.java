@@ -1,6 +1,6 @@
 package atividades.atividade06.entities;
 
-public class Retangle {
+public class Rectangle {
   public  double width;
   public  double height;
 

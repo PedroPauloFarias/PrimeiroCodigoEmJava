@@ -1,15 +1,15 @@
 package atividades.atividade06.application;
 
 import java.util.Scanner;
-import atividade06.entities.Retangle;
+import atividades.atividade06.entities.Rectangle;
 import java.util.Locale;
 
 public class Program {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
         Scanner leitura = new Scanner(System.in);
-         Retangle x;
-         x = new Retangle();
+         Rectangle x;
+         x = new Rectangle();
             
         System.out.println("Enter rectangle width and height: ");
         x.width = leitura.nextDouble();
