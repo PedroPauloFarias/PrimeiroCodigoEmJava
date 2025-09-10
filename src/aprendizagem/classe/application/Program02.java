@@ -1,38 +1,41 @@
-package aprendizagem.pOO.class00.src.application;
+package aprendizagem.classe.application;
+
 
 import java.util.Scanner;
 import java.util.Locale;
-import aprendizagem.pOO.class00.src.entities.Product02;
+
+
+import aprendizagem.classe.entities.Product02;
 
 public class Program02 {
     public static void main(String[] args){
- Locale.setDefault(Locale.US);
-  Scanner leitura = new Scanner(System.in);
-    Product02 product = new Product02(); // 1
-    System.out.println("Enter product data: ");
-    System.out.print("Name: ");
+        Locale.setDefault(Locale.US);
+        Scanner leitura = new Scanner(System.in);
+        Product02 product = new Product02(); // 1
+        System.out.println("Enter product data: ");
+        System.out.print("Name: ");
         product.name = leitura.nextLine(); // Aqui leio no produto e guardo no campo name
-    System.out.print("Price: ");
+        System.out.print("Price: ");
         product.price = leitura.nextDouble();// Aqui leio no produto e guardo no campo preço
-    System.out.print("Quantity in stock: ");
+        System.out.print("Quantity in stock: ");
         product.quantity = leitura.nextInt();// Aqui leio no produto e guardo no campo quantidade
 
-    System.out.println();
-    System.out.println("Product data: " + product);
+        System.out.println();
+        System.out.println("Product data: " + product);
 
-    System.out.println();
-    System.out.println("Enter the number of products to be added in stock: ");
-    int quantity = leitura.nextInt();
-    product.addProducts(quantity); // 5
-    System.out.println("Updated data: " + product);
+        System.out.println();
+        System.out.println("Enter the number of products to be added in stock: ");
+        int quantity = leitura.nextInt();
+        product.addProducts(quantity); // 5
+        System.out.println("Updated data: " + product);
 
-    System.out.println();
-    System.out.println("Enter the number of products to be removed in stock: ");
-    quantity = leitura.nextInt();
-    product.removeProducts(quantity);
-    System.out.println("Updated data: " + product);
+        System.out.println();
+        System.out.println("Enter the number of products to be removed in stock: ");
+        quantity = leitura.nextInt();
+        product.removeProducts(quantity);
+        System.out.println("Updated data: " + product);
 
-  leitura.close();
+        leitura.close();
     }
 }
 /*

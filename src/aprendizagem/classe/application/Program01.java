@@ -1,15 +1,14 @@
-package aprendizagem.pOO.class00.src.application;
+package aprendizagem.classe.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import aprendizagem.pOO.class00.src.entities.Triangle01;// Temos que importa para
-
+import aprendizagem.classe.entities.Triangle01; // Temos que importa para
 
 public class Program01 {
     public static void main(String[] args) {
-Locale.setDefault(Locale.US);
- Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
 
         Triangle01 x, y; // Aqui eu declarei as variáveis do tipo class
         x = new Triangle01();// Aqui eles esta estanciado com o comando new
@@ -27,17 +26,17 @@ Locale.setDefault(Locale.US);
 
         double areaX = x.area();
         double areaY = y.area();
-    System.out.printf("Triangle X area: %.4f%n", areaX);
-    System.out.printf("Triangle Y area: %.4f%n", areaY);
-    if (areaX > areaY) {
-        System.out.println("Larger area: X");
-    }
-    else {
-        System.out.println("Larger area: Y");
-    }
- sc.close();
-
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
+        if (areaX > areaY) {
+            System.out.println("Larger area: X");
         }
+        else {
+            System.out.println("Larger area: Y");
+        }
+        sc.close();
+
+    }
 }
 /*
  Classe: é um tipo estruturado que pode conter membros, ou seja:
