@@ -29,6 +29,10 @@ Também conhecidos como membros de classes
 Não precisam de objeto para serem chamados.
 São chamados a partir do próprio nome da classe
 
+Membros estáticos (variáveis e métodos) são aqueles declarados
+com a palavra-chave static, pertencendo à classe em vez de a qualquer
+instância específica, o que significa que não é necessário criar um objeto para usá-los.
+
 Aplicação
 - Classes utilitárias
 - Declaração de constantes
