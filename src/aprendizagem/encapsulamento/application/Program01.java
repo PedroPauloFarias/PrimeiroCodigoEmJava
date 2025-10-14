@@ -43,7 +43,7 @@ public class Program01 {
 /*
                         Encapsulamento
 
-É um princípio que consiste emm esconder detalhes
+É um princípio que consiste em esconder detalhes
 de uma classe, expondo apenas operações seguras
 e que mantenham os objetos em um estado consistente
 

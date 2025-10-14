@@ -5,12 +5,13 @@ public class Product {
     public double price;
     public int quantity;
 
+    // Esse é o construtor
     public Product(String name, double price, int quantity){
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
-    //1
+    //1 - Esse é a SobreCarga
     public Product(String name, double price){
         this.name = name;
         this.price = price;
@@ -41,7 +42,8 @@ public class Product {
 
 /*
 Comentarios do Code
-sobre carga é disponibilizar mais de uma versão dá mesma operação
+Sobre carga é disponibilizar mais de uma versão dá mesma operação
+
 Exemplo da SobreCarga:
     public Product(String name, double price, int quantity){
         this.name = name;

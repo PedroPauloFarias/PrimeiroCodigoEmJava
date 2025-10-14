@@ -1,0 +1,11 @@
+É um princípio que consiste em esconder detalhes
+de uma classe, expondo apenas operações seguras
+e que mantenham os objetos em um estado consistente
+O Objeto não deve expor nenhum atributo(vamos usar o private)
+E os atributos devem ser acessados por métodos get e set. Não chamamos os atributos diretos
+
+private = não pode ser acessado por outras classes
+
+
+O GETTER get = Server "obter" o valor do atributo
+O SETTER set = Serve para "alterar" o valor do atributo

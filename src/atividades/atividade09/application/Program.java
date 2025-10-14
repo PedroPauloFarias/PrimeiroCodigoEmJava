@@ -8,44 +8,35 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter account number/ Digite a matricula: ");
+        System.out.print("Enter account number: ");
         int number = sc.nextInt();
-        System.out.print("Enter account holder/ Digite o seu nome : ");
+        System.out.print("Enter account holder: ");
         String holder = sc.next();
-        System.out.print("Is there na initial deposit [Y], [N] ? / Deseja depositar algum valor [Y], [N] ?");
+        System.out.println("Is there na initial deposit (y / n)?" );
         char resposta = sc.next().charAt(0);
-        double novoDeposito = 0.0;
-         double depositoInicial = 0.0;
-            if (resposta == 'Y' ||  resposta == 'y') {
-                System.out.print("Enter initial deposit value/ Digite o deposito inicial: ");
-                depositoInicial = sc.nextDouble();
-            }// if (resposta == 'N' || resposta == 'n'){
-            //System.out.println("The end!!!");
-      //  }
+        double deposit = 0.0;
 
-        Product produto = new Product(number, holder, depositoInicial);
+            if (resposta == 'Y' || resposta == 'y'){
+                System.out.print("Enter initial deposit value: ");
+                deposit = sc.nextDouble();
+            } else {
+             System.out.println("The End!!!");
+            }
+        Product product = new Product(number, holder, deposit);
 
-
-        // Exibe os dados da conta
         System.out.println();
-        System.out.println("Account data / Dados da conta:");
-        System.out.println("Número: " + produto.getNumber());
-        System.out.println("Titular: " + produto.getHolder());
-        System.out.println("Saldo: " + produto.getDeposito());
+        System.out.println("Account data:");
+        System.out.println("Account: " + product.getNumber());
+        System.out.println("Holder: " + product.getHolder());
+        System.out.println("Balance: " + product.getDeposit());
+        System.out.println();
+        System.out.println("Enter a deposit  value: ");
+        double value = sc.nextDouble();
+        product.addDeposit(deposit);
+//        deposit= sc.nextDouble();
+        System.out.println("Updated account data: ");
 
-        System.out.print("Is there na new deposit [Y], [N] ? / Deseja depositar algum novo valor [Y], [N] ?");
-       resposta = sc.next().charAt(0);
-
-        if (resposta == 'Y' || resposta  == 'y' ){
-            System.out.println("Digite o valor:"  );
-            novoDeposito = sc.nextDouble();
-        }else{
-            System.out.println("The end!!!");
-        }
-        System.out.println("Account data / Dados da conta:");
-        System.out.println("Número: " + produto.getNumber());
-        System.out.println("Titular: " + produto.getHolder());
-        System.out.println("Saldo: " + produto.getDeposito());
+       // System.out.println(product.addDeposit(depoist));
         sc.close();
     }
 }
