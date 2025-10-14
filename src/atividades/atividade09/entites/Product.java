@@ -6,10 +6,15 @@ public class Product {
     private String holder;
     private double deposit;
 
-    public Product(int number, String holder, double deposit){
+    public Product(int number, String holder){
         this.number = number;
         this.holder = holder;
-        this.deposit = deposit;
+    }
+
+    public Product(int number, String holder, double depositInicial){
+        this.number = number;
+        this.holder = holder;
+       depositnew(depositInicial);
     }
 
     public int getNumber(){
@@ -19,23 +24,29 @@ public class Product {
     public String getHolder(){
         return holder;
     }
+
    public void setHolder(String holder){
         this.holder = holder;
- }
+  }
+
     public double getDeposit(){
         return deposit;
     }
-//    public double setDeposit(double value){
-//        return deposit += value;
-//    }
 
-    public void addDeposit(double deposit){
-         this. deposit += deposit;
+    public void depositnew(double value ){
+        deposit += value;
     }
 
-    public String toString() {
-    return number +
-            holder +
-            deposit;
-    }
+   public void sacar(double value){
+             deposit -= value - 5.0;
+   }
+
+   public String toString(){
+        return "Account: "
+                + number
+                + ", Holder: "
+                + holder
+                + ", Balance: "
+                + String.format("%.2f", deposit);
+   }
 }

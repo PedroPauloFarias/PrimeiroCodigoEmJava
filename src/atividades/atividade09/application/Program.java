@@ -8,35 +8,49 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+        Product product;
+
         System.out.print("Enter account number: ");
         int number = sc.nextInt();
-        System.out.print("Enter account holder: ");
-        String holder = sc.next();
-        System.out.println("Is there na initial deposit (y / n)?" );
-        char resposta = sc.next().charAt(0);
-        double deposit = 0.0;
 
+        System.out.print("Enter account holder: ");
+        sc.nextLine();
+        String holder = sc.nextLine();
+
+        System.out.print("Is there na initial deposit (y / n)?" );
+        char resposta = sc.next().charAt(0);
             if (resposta == 'Y' || resposta == 'y'){
                 System.out.print("Enter initial deposit value: ");
-                deposit = sc.nextDouble();
+               double inicialDeposit = sc.nextDouble();
+               product = new Product (number, holder, inicialDeposit);
             } else {
-             System.out.println("The End!!!");
+                product = new Product(number, holder);
             }
-        Product product = new Product(number, holder, deposit);
-
         System.out.println();
         System.out.println("Account data:");
-        System.out.println("Account: " + product.getNumber());
-        System.out.println("Holder: " + product.getHolder());
-        System.out.println("Balance: " + product.getDeposit());
+        System.out.println(product);
         System.out.println();
-        System.out.println("Enter a deposit  value: ");
-        double value = sc.nextDouble();
-        product.addDeposit(deposit);
-//        deposit= sc.nextDouble();
+        System.out.print("Enter a deposit value: ");
+        double depositValue = sc.nextDouble();
+        product.depositnew(depositValue); // Essa operação irar fazer o depósito na conta
         System.out.println("Updated account data: ");
+        System.out.println(product);
+        System.out.println();
 
-       // System.out.println(product.addDeposit(depoist));
+        System.out.println("Account data:");
+        System.out.println(product);
+        System.out.println();
+        System.out.print("Enter a withdraw value: ");
+        double withdrawValue = sc.nextDouble();
+        product.sacar(withdrawValue); // Essa operação irar fazer o
+        System.out.println("Updated account data: ");
+        System.out.println(product);
         sc.close();
     }
 }
+/*
+Se a pessoa quiser depositar vamos usar o construtor de tres; que irar
+mostrar o number, holder e inicialDeposit
+Mas se ele nao quiser depositar irar mostrar apenas
+a sobrecarga de dois; number e holder
+ */
