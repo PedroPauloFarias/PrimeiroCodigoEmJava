@@ -10,11 +10,11 @@ public class Program01 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        String name = sc.nextLine();
+        String name = sc.nextLine(); // Aqui temos uma variável auxiliar, para quando eu digitar o nome
         System.out.print("Price: ");
-        double price = sc.nextDouble();
+        double price = sc.nextDouble(); // Aqui temos uma variável auxiliar, para quando eu digitar o preço
         System.out.print("Quantity in stock: ");
-        int quantity = sc.nextInt();
+        int quantity = sc.nextInt(); // Aqui temos uma variável auxiliar, para quando eu digitar a quantidade
         Product product = new Product(name,  price, quantity);
 
         System.out.println();

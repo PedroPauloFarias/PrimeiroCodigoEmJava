@@ -1,12 +1,13 @@
 package aprendizagem.construtores.entities;
 
 public class Product {
-    public String name;
-    public double price;
-    public int quantity;
+    public String name;  //Atributo
+    public double price; //Atributo
+    public int quantity; //Atributo
 
+// 1 - Aqui está o nosso construtor
     public Product(String name, double price, int quantity){
-        this.name = name;
+        this.name = name; // 2
         this.price = price;
         this.quantity = quantity;
     }
@@ -33,3 +34,8 @@ public class Product {
                 + String.format("%.2f", totalValueInStock());
     }
 }
+/*
+o construtor sempre colocamos depois dos
+atributos
+2 - Aqui usamos o "this", pois temos que referenciar o atributo ao parametro
+ */

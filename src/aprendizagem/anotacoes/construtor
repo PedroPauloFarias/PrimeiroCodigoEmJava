@@ -1,0 +1,9 @@
+É uma operação especial da classe, que executa no
+momento da instanciação (new) do objeto. O
+construtor será executado naquele momento.
+Ele é um metódo especial que tem o mesmo "nome"
+da classe.
+Construtores não têm tipo de
+retorno e podem ser definidos com ou sem parâmetros,
+sendo possível ter vários construtores em uma classe
+para diferentes formas de inicialização.

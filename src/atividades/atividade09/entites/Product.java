@@ -11,5 +11,18 @@ public class Product {
         this.deposito = deposito;
      }
 
+     public int getNumber(){
+         return number;
+     }
+     public String getHolder(){
+         return holder;
+     }
 
+     public double getDeposito(){
+         return deposito;
+     }
+
+     public  void addDepositar(double valor){
+         this.deposito += valor;
+     }
 }
