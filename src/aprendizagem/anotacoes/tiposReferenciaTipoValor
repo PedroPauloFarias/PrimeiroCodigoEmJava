@@ -1,0 +1,9 @@
+Tipo Referencia- Uma referência é como um endereço que aponta para um valor armazenado na memória.
+Ela não guarda o valor em si, mas aponta para onde esse valor está guardado.
+Sendo, que as Classes esse tipo. Variaveis são ponteiros
+Exemplo;
+Product p1, p2;
+p1 = new Product("TV", 900.00, 0) => Aqui estamos apontando para o endereço
+
+Tipo Valor- Já aqui são tipos primitivos, sendo aqui como caixas que vão armazenar o valor.
+Variavies são caixas

@@ -1,0 +1,5 @@
+Garbage collector - Ele aloca os objetos dinamicamente, e
+desaloca os que não estão sendo usados.
+
+Variaveis locais serão desalocadas imediatamente, assim que o
+seu escopo sai de execução
