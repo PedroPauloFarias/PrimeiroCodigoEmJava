@@ -23,9 +23,15 @@ public class index {
         }
         double media = soma / quantity;
 
-        System.out.println("SOMA: " + soma);
-        System.out.println("MEDIA: " + media);
+
+        System.out.print("VALORES = ");
+        for(int i = 0; i < quantity; i++) {
+            System.out.printf("%.1f  ", array[i]);
+        }
+
+        System.out.println();
+        System.out.printf("SOMA: %.2f%n",  soma);
+        System.out.printf("MEDIA: %.2f%n",  media);
         sc.close();
     }
 }
-// Falta coisa para terminar
