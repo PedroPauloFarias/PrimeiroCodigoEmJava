@@ -1,7 +1,5 @@
 package atividades.atividade15.application;
 
-import atividades.atividade15.entites.Product;
-
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -13,7 +11,7 @@ public class Program {
         int n = sc.nextInt();
         int[] vectA = new int[n];
         int[] vectB = new int[n];
-     //  Product[] product = new Product(A, B);
+
         System.out.println("Digite os Valores de A: ");
         for(int i = 0; i < n; i++){
             sc.nextLine();
