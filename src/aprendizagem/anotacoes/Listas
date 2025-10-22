@@ -1,0 +1,12 @@
+Ela é uma estrutura de dados, que são do mesmo tipo,
+sendo os elementos acessados por meio de posições.
+Ela inicia vazia (diferentemente do vetor), e seus
+elementos são alocados sobre demanda, sendo dinâmica
+
+COMANDOS:
+Tamanho da lista: size()
+Inserir elementos na lista: add(obj), add(int, obj)
+Remover elementos na lista: remove(obj), remove(int), removeIf(Predicate)
+Encontrar posições de elementos: indexOf(obj), lastIndexOf(obj)
+Filtra lista com base em predicado: List<Integer> result = list.stream().filter(x -> x > 4).collect(Collectors.toList());
+Encontrar primeira ocorrência com base em predicado: Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
