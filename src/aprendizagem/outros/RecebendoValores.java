@@ -1,4 +1,4 @@
-package aprendizagem;
+package aprendizagem.outros;
 
 public class RecebendoValores {
     public static void main(String[] args){

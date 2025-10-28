@@ -1,4 +1,4 @@
-package aprendizagem;
+package aprendizagem.outros;
 
                 //Isso é um Aprendizagem.Casting - a converção explicita de tipos de dados
 

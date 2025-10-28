@@ -1,4 +1,4 @@
-package aprendizagem;
+package aprendizagem.outros;
 
 import java.util.Locale;
 import java.util.Scanner;

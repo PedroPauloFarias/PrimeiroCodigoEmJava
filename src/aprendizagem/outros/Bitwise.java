@@ -1,4 +1,4 @@
-package aprendizagem;
+package aprendizagem.outros;
 
 public class Bitwise {
     public static void main(String[] args){
