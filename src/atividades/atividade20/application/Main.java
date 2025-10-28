@@ -2,7 +2,7 @@ package atividades.atividade20.application;
 
 import atividades.atividade20.entites.Employee;
 
-import javax.sound.midi.Soundbank;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Locale;
@@ -14,18 +14,18 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         List<Employee> list = new ArrayList<>();
 
-        System.out.println("How many employees will be registered? ");
+        System.out.print("How many employees will be registered? ");
         int N = sc.nextInt();
 
         for(int i = 0; i < N; i++){
             System.out.println();
             System.out.println("Employee #" +(i +1) + ":");
-            System.out.println("Id: ");
+            System.out.print("Id: ");
             Integer id = sc.nextInt();
-            System.out.println("Name: ");
+            System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
-            System.out.println("Salary: ");
+            System.out.print("Salary: ");
             Double salary = sc.nextDouble();
 
             Employee emp = new Employee(id, name, salary);
@@ -33,7 +33,32 @@ public class Main {
         }
         System.out.println("Enter the employee id that will have salary increase: ");
         int idsalary = sc.nextInt();
-
+        Integer pos = position(list, idsalary);
+        if(pos == null){
+            System.out.println("This id does not exist: " + pos);
+        }else {
+            System.out.println("Enter the percentage: ");
+            double percent = sc.nextDouble();
+            list.get(pos).increaseSalary(percent);
+        }
+        System.out.println();
+        System.out.println("List of employees: ");
+        for(Employee emp : list){
+            System.out.println(emp);
+        }
         sc.close();
     }
+
+    // A função abaixo pega o id na posição em que ele esta
+    public static Integer position(List<Employee> list, int id){
+        for(int i = 0; i < list.size(); i++){
+            if(list.get(i).getId() == id){
+                return i; // Se ele encontrar irar retornar o valor
+            }
+        }
+        return null; // se ele nao encontrar
+    }
 }
+/*
+size é o tamanho da lista
+ */
