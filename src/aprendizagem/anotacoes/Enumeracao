@@ -1,0 +1,13 @@
+É um tipo especial que serve para especificar de forma literal um
+conjunto de constantes relacionadas
+
+Enum é usado pra criar um grupo fixo de valores
+que representam algo específico, como dias da
+semana, status de pedido ou níveis de acesso.
+
+enum
+
+conjunto fixo de opções.
+
+
+

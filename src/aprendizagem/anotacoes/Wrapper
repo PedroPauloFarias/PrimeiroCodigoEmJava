@@ -1,0 +1,15 @@
+Wrapper é a versão em objeto dos tipos primitivos (como int, double, boolean).
+Serve pra quando você precisa guardar números ou outros valores em coleções (List, Map),
+usar valores nulos (null) ou aproveitar métodos prontos como Integer.parseInt().
+
+transforma tipos simples em objetos pra poder usar em mais situações.
+
+Tipos primitivos            Wrapper
+short                       Short
+byte                        Byte
+int                         Integer
+long                        Long
+float                       Float
+double                      Double
+boolean                     Boolean
+char                        Character
