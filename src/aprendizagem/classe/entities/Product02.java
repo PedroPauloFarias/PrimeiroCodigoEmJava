@@ -1,9 +1,9 @@
 package aprendizagem.classe.entities;
 
 public class Product02 {
-    public String name; // 1
-    public double price; // 2
-    public int quantity; // 3
+    public String name; // 1 atributos
+    public double price; // 2 atributos
+    public int quantity; // 3 atributos
 
     // 4
     public double totalValueInStock(){

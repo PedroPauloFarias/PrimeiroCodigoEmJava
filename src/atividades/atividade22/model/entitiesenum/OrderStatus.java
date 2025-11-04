@@ -1,6 +1,6 @@
 package atividades.atividade22.model.entitiesenum;
 
-public enum OrderItem {
+public enum OrderStatus {
     PENDING_PAYMENT,
     PROCESSING,
     SHIPPED,

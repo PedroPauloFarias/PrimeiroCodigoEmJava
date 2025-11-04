@@ -1,0 +1,5 @@
+uma classe (subclasse ou classe filha) herde atributos
+ e métodos de outra classe (superclasse ou classe pai)
+
+Sintaxe: class A extends B - Significa que a classe A vai herda tudo
+que a classe B tem

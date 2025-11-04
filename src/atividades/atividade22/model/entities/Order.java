@@ -8,7 +8,6 @@ import java.util.List;
 import aprendizagem.enumeracao.entities.enums.OrderStatus;
 
 public class Order {
-
     private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
     private Date moment;
@@ -17,15 +16,11 @@ public class Order {
     private Client client;
     private List<OrderItem> items = new ArrayList<>();
 
-    public Order(){
-    }
-
     public Order(Date moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
         this.client = client;
     }
-
 
     public Date getMoment() {
         return moment;
@@ -51,6 +46,9 @@ public class Order {
         this.client = client;
     }
 
+    public List<OrderItem> getItems() {
+        return items;
+    }
 
     public void addItem(OrderItem item) {
         items.add(item);
