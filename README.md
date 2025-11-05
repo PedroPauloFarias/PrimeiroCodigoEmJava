@@ -145,4 +145,4 @@ git push -u origin main
 git push origin --delete master
 ```
 
-npm install -g npm:10 atualizar a versão
+
