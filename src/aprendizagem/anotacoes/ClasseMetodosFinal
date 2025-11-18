@@ -1,0 +1,7 @@
+Tem dois Final
+
+Por quer usar? Geralmente é para segurança e depende do negocio,
+e também evitar sobreposições multiplas
+
+Final em Classe - evita que a classe seja herdada
+Final em metodo - evita que o método sob seja sobreposto

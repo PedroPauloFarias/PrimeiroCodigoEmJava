@@ -1,6 +1,6 @@
 package aprendizagem.heranca.entities;
 
-public class SavingsAccount  extends Account{
+public class SavingsAccount  extends Account{ // Aqui eu estou dizendo que essa classe nao pode ser herdada
     private Double interestRate;
 
     public SavingsAccount(){

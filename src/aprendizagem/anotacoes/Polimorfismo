@@ -1,0 +1,3 @@
+Polimorfismo - É o recurso que permite que variaveis de um mesmo tipo
+mais generico possam apontar para objetos de tipos diferentes, tendo
+cada um comportamento diferente

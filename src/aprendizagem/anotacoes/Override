@@ -1,0 +1,8 @@
+É usada para indicar que um método em uma classe (subclasse)
+tem a intenção de sobrescrever (reimplementar) um método com
+a mesma assinatura que existe em sua superclasse ou interface
+
+@Override é uma etiqueta de segurança que garante que você
+está reescrevendo corretamente um método que já foi definido anteriormente
+
+"a versão personalizada".

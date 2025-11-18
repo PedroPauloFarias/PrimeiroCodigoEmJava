@@ -1,4 +1,32 @@
 package aprendizagem.polimorfismo.entities;
 
-public class SavingsAccount {
+import aprendizagem.polimorfismo.entities.Account;
+
+public class SavingsAccount  extends Account { // Aqui eu estou dizendo que essa classe nao pode ser herdada
+    private Double interestRate;
+
+    public SavingsAccount(){
+        super();
+    }
+
+    public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
+        super(number, holder, balance);
+        this.interestRate = interestRate;
+    }
+
+    public Double getInterestRate() {
+        return interestRate;
+    }
+
+    public void setInterestRate(Double interestRate) {
+        this.interestRate = interestRate;
+    }
+
+    public void updateBalance(){
+        balance += balance * interestRate;
+    }
+    @Override // para indicar que é uma sobreposição
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
 }
