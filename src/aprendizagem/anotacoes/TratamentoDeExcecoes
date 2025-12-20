@@ -1,0 +1,15 @@
+erro que acontece enquanto o programa está rodando
+Não é erro de sintaxe. O código compila, mas falha em tempo de execução
+
+Toda exceção é um objeto
+Todas herdam de uma classe base
+
+Sintaxe
+try {
+ } catch(){
+}
+
+try(Tentar) - Contem o codigo que representa a execução normal
+do trecho do codigo que pode acarretar em uma exceção
+
+cacth(Capturar)- Contem o codigo a ser executado caso uma exceção ocorra
