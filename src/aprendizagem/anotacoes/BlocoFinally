@@ -1,0 +1,9 @@
+É um bloco que contém código a ser executado
+idependente de ter ocorrido ou não uma exceção
+
+try {
+ }
+cath {
+ }
+ finally{
+}
