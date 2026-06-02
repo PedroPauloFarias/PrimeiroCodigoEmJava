@@ -1,0 +1,49 @@
+Objeto : É uma coisa material ou abstrata
+que pode ser percebida pelos sentidos e descritas
+por meio das suas caracteristicas, comportamentos e estado atual
+
+TUDO  que tiver:
+- Caracteristica
+- Estado
+- Comportamento
+
+ Exemplo: Controle Remoto, Compromisso, Caneta
+
+  Caneta, ela seria o objeto
+  Mas as caracteristicas dela seria a classe
+
+  Em POO para ser uma classe tem que responder três perguntas:
+ - Coisas que eu tenho
+ - Coisas que eu faço
+ - Como eu estou agora?
+
+ Exemplo em CANETA:
+  - Coisas que eu tenho
+        Modelo
+        Cor
+        Ponta
+        Carga
+        Tampa
+  - Coisas que eu faço
+        Escrever
+        Rabiscar
+        Pintar
+        Tampar
+        Destampar
+  - Como eu estou agora?
+         Qual é o esta que
+         ela esta
+
+
+Dentro de POO Cada uma dessas perguntas tem NOMES:
+ATRIBUTOS - Coisas que eu tenho
+MÉTODOS - Coisas que eu faço
+ESTADO - Como eu estou agora?
+
+
+A CLASSE pode ser o molde  que foi utilizado para gerar esse objeto.
+para eu poder criar um objeto, primeiramente eu tenho que criar uma classe
+
+
+
+Instanciar é quando eu pego uma classe e consigo gerar um objeto apartir dela
