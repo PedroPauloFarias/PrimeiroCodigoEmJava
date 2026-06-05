@@ -1,0 +1,2 @@
+Ele permite que você coloque um método dentro de uma interface
+sem quebrar as classes que já usavam essa interface antes
