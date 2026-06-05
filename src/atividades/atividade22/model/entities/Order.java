@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import aprendizagem.enumeracao.entities.enums.OrderStatus;
+import aprendizagem.praticas.Udemy.enumeracao.entities.enums.OrderStatus;
 
 public class Order {
     private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
