@@ -1,6 +1,8 @@
 package aprendizagem.praticas.Udemy.defaultMethods.application;
 
 import aprendizagem.praticas.Udemy.defaultMethods.services.BrazilInterestService;
+import aprendizagem.praticas.Udemy.defaultMethods.services.InterestService;
+import aprendizagem.praticas.Udemy.defaultMethods.services.UsaInterestService;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -15,10 +17,10 @@ public class Program {
         System.out.print("Months: ");
         int months = sc.nextInt();
 
-        BrazilInterestService is = new BrazilInterestService(2.0);
+        InterestService is = new UsaInterestService(1.0);
         double payment = is.payment(amount, months);
 
-        System.out.println("Payment after " + months + "months");
+        System.out.println("Payment after " + months + " months");
         System.out.println(String.format("%.2f", payment));
     }
 }
