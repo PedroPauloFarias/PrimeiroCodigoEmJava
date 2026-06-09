@@ -1,0 +1,8 @@
+É um contrato que define o que uma classe
+deve fazer, mas não como ela deve fazer isso
+
+Ela só pode conter assinaturas de métodos e campos, não se
+destinando a conter implementações dos métodos, apenas a assinatura(nome, parâmetros e execeções) do método
+
+Interfaces ainda saõ bem diferentes de classes abstratas.
+Interfaces não possuem recuros tais como construtores e atributos
