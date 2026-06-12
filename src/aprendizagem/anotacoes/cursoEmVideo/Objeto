@@ -47,5 +47,10 @@ para eu poder criar um objeto, primeiramente eu tenho que criar uma classe
 
 
 Instanciar:É quando eu pego uma classe e consigo gerar um objeto apartir dela
+É o momento em que você efetivamente cria um filme real dentro do código usando esse molde.
+Quando você escreve algo como filme = Filme(), você está realizando uma instanciação.
+Esse novo objeto filme agora "herda" todas as características definidas na classe original,
+permitindo que você use os métodos (filme.dar_play()) e acesse os atributos daquele objeto específico.
+Em resumo, a classe é o conceito geral (o "modelo de filme"), e a instância é o objeto concreto que você cria para usar no seu programa
 
 Abstração quais são os atribustos que me importam nesse momento

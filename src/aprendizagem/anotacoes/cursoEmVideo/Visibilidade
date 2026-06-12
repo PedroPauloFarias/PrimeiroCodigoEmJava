@@ -1,0 +1,19 @@
+Primeiro vamos falar de um diagrama de classes UML
+que é uma representação visual da estrutura estática de um sistema;
+mapeando classes, seus atributos, comportamentos(métodos) e as suas relações entre elas
+
+Como é visualmente vista:
+Nome da Classe - No topo, me negrito e centralizado
+Atributos(Propriedades) - No meio. Seguem a estrutura nome : TipoRetorno.
+Métodos(Operações) - Na base. Seguem o padrão nomeAcao(parâmetros):TipoRetorno.
+
+
+Agora a Visibilida
+
++ Pública = public
+a classe atual e todas as outras classes, podem ter acessar elas
+- Private = private
+somente a classe atual, pode acessar ela
+# Protegida = protected
+a classe atual e todas as suas sub-classes
+~ Pacote = package
