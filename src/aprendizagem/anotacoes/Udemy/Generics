@@ -1,6 +1,11 @@
 Permitem que classes, interfaces e métodos possam ser
 parametrizados por tipo
+
 Uso comum : coleções
 
 Os genéricos são usados para criar classes, interfaces  e métodos
 com parâmetros que podem operar em diferentes tipos de dados
+
+Todas as declarações de métodos genéricos possuem uma seção de
+parâmetros de tipo entre colchetes angulares (<T>, <E>, <K,V>, etc.),
+que precede o tipo de retorno do método.
