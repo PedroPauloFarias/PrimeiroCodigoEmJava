@@ -13,8 +13,8 @@ public class Program01 {
         List<? super Number> myNums = myObjs;
         myNums.add(10);
         myNums.add(3.14);
-        
-        Numberx = myNums.get(0); // erro de complição
+
+        //Numberx = myNums.get(0); // erro de complição
 
 
     }
