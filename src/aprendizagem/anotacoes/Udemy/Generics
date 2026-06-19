@@ -9,3 +9,10 @@ com parâmetros que podem operar em diferentes tipos de dados
 Todas as declarações de métodos genéricos possuem uma seção de
 parâmetros de tipo entre colchetes angulares (<T>, <E>, <K,V>, etc.),
 que precede o tipo de retorno do método.
+
+Os Generics são invariantes
+
+//o ? é o super tipo de qualquer tipo de lista, nao apresentando problemas assim
+
+Com tipos curinga podemos fazer métodos que recebem um genérico de "qualquer tipo"
+Porém não é possível adicionar dados a uma coleção do tipo curinga
