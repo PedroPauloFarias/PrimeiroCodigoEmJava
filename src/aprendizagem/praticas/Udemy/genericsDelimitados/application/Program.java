@@ -13,7 +13,7 @@ public class Program {
     public static void main(String[] args) {
 
         List<Product> list = new ArrayList<>();
-        String path = "C:\\temp\\in.txt";
+        String path = "/home/pedrofarias/Documentos/escritos/in.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
             String line = br.readLine();
@@ -23,7 +23,7 @@ public class Program {
                 line = br.readLine();
             }
             Product x = CalculationService.max(list);
-            System.out.println("Max:");
+            System.out.println("Most expensive:");
             System.out.println(x);
 
         } catch (IOException e) {
