@@ -1,0 +1,7 @@
+São operações da classe Object utlizadas para comparar se um objeto é igual a outro
+
+Equals: lento, reposta 100%
+hashCode: rápido, porém resposta positiva não é 100%(pode dar uma falso positivo)
+
+hashCode = Serve para aginlizar a busca de objetos
+Equals = Serve para verificar se os dois são exatamente iguais

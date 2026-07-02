@@ -1,0 +1,13 @@
+É um conjunto e uma estrutura de dados que armazena uma coleção de elementos únicos
+Isso significa que não são permitidos valores duplicados em um conjunto
+
+Representa uma coleção de objetos onde cada objeto Set é único
+Não admite repetições
+Elementos não possuem posição
+Acesso, inserção e remoção de elementos são rápidos
+
+Principais implementações
+HashSet = mais rápido(operações O(1) em tabela hash) e não ordenado
+TreeSet = mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado pelo compareTo do objeto (ou Comparator)
+LinkedHashSet = velocidade intermediaria e elementos na ordem em que são adicionados
+
